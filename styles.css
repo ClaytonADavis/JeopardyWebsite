@@ -1,0 +1,43 @@
+
+.userstuff {
+    text-align: center;
+    margin: auto;
+    color:silver;
+}
+#name, #email, #comments{
+    display: block;
+    text-align: left;
+}
+.userInputs{
+    margin: auto;
+}
+
+.cool{
+    display: inline-block;
+    position: top;
+    margin: auto;
+    height: 275px;
+    width: 700px;
+    background-color: darkblue;
+}
+.cooler{
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    width: 700px;
+    height: 275px;
+    color: silver;
+    background-color: darkblue;
+}
+body{
+    background-color: darkblue;
+}
+/*
+body{
+    background-image: url('logo.jpg');
+    background-position: center top;
+    background-size: 1700px 1000px;
+    background-repeat: no-repeat;
+
+}*/
+

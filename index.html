@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jeopardy</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <form action="echo_server.php" method="POST">
+            <ul style="list-style-type: none;">
+                <fieldset class="cool">
+                <div class = "userstuff">
+                <li>
+                    <label for="name">Enter Your Name:</label>
+                    <input type="text" name="name" id="name" class = "userInputs" required>
+                </li>
+                <li>
+                    <label for="email">Enter Your Email:</label>
+                    <input type="text" name="email" id="email" class = "userInputs" required>
+                </li>
+                <li>
+                    <label for="comments">Comments:</label>
+                    <textarea name="comments" id="comments" class = "userInputs" required></textarea>
+                </li>
+                <li>
+                    <label for="albums">Select Album:</label>
+                    <select name="albums" id = "albums">
+                        <optgroup label = "The Beatles" id = "optgroup">
+
+                        </optgroup>
+                    </select>
+                </li>
+                <li>
+                    <input type="submit" value="Submit" disabled>
+                </li>
+                </div>
+                </fieldset>
+                <fieldset class="cooler">
+                    <h1 id="clues">Jeopardy Clues</h1>
+                    <li> 
+                        <label for="category">Category:</label>
+                        <p>Will Display Category Later</p>
+                    </li>                    <li> 
+                        <label for="clue">Clue:</label>
+                        <p id ="clue">Will Display Clue Later</p>
+                    </li>                    <li> 
+                        <label for="airDate">Date Aired:</label>
+                        <p>Will Display Air Date Later</p>
+                    </li>
+                </fieldset>
+            </ul>
+        </form>
+
+        <script src="jeopardy.js"></script>
+    </body>
+
+</html>
